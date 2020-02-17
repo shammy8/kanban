@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "kanban-dbbf3": {
+      "hosting": {
+        "kanban": [
+          "kanban-dbbf3"
+        ]
+      }
+    }
+  }
+}
