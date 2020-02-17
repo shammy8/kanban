@@ -36,7 +36,6 @@ const modules = [
   MatInputModule,
   MatSnackBarModule,
   AngularFireAuthModule,
-  RouterModule,
 ];
 
 @NgModule({
