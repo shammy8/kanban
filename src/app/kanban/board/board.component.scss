@@ -5,6 +5,9 @@
   padding: 10px;
   background: #212121;
 }
+mat-card-header {
+  justify-content: space-between;
+}
 
 .inner-card {
   margin: 5px 0;

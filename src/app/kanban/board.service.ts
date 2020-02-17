@@ -17,7 +17,7 @@ export class BoardService {
     return this.db.collection('boards').add({
       ...data,
       uid: user.uid,
-      tasks: [{ description: 'Helloe', label: 'yellow' }],
+      tasks: [{ description: 'Click here to edit', label: 'yellow' }],
     });
   }
 

@@ -12,7 +12,11 @@ import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
       </mat-form-field>
     </div>
     <div mat-dialog-actions>
-      <button mat-button [mat-dialog-close]="data.title" cdkFocusInitial>
+      <button
+        mat-stroked-button
+        [mat-dialog-close]="data.title"
+        cdkFocusInitial
+      >
         Create
       </button>
       <button mat-button (click)="onNoClick()">Cancel</button>
