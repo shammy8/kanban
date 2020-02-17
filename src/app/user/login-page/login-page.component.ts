@@ -11,8 +11,8 @@ export class LoginPageComponent implements OnInit {
   constructor(public afAuth: AngularFireAuth, private router: Router) {}
 
   ngOnInit(): void {
-    if (this.afAuth.authState) {
-      this.router.navigate(['kanban']);
-    }
+    // if (this.afAuth.authState) {
+    //   this.router.navigate(['kanban']);
+    // }
   }
 }
