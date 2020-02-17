@@ -4,7 +4,7 @@ import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
 @Component({
   selector: 'app-board-dialog',
   template: `
-    <h1 mat-dialog-title>Board</h1>
+    <h2 mat-dialog-title>Board</h2>
     <div mat-dialog-content>
       <p>Name of the Board</p>
       <mat-form-field>
@@ -22,7 +22,7 @@ import { MatDialogRef, MAT_DIALOG_DATA } from '@angular/material/dialog';
       <button mat-button (click)="onNoClick()">Cancel</button>
     </div>
   `,
-  styles: [],
+  styleUrls: ['./dialog.scss'],
 })
 export class BoardDialogComponent implements OnInit {
   constructor(

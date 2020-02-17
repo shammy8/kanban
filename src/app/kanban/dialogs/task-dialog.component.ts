@@ -5,7 +5,7 @@ import { BoardService } from '../board.service';
 @Component({
   selector: 'app-task-dialog',
   template: `
-    <h1 mat-dialog-title>Task</h1>
+    <h2 mat-dialog-title>Task</h2>
     <div mat-dialog-content class="content">
       <mat-form-field>
         <textarea
@@ -27,7 +27,7 @@ import { BoardService } from '../board.service';
       </mat-button-toggle-group>
     </div>
     <div mat-dialog-actions>
-      <button mat-button [mat-dialog-close]="data" cdkFocusInitial>
+      <button mat-stroked-button [mat-dialog-close]="data" cdkFocusInitial>
         {{ data.isNew ? 'Add Task' : 'Update Task' }}
       </button>
 
