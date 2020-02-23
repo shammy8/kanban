@@ -22,7 +22,5 @@ export class ListPageComponent implements OnInit {
     this.customers = this.db
       .collection('customers')
       .valueChanges({ idField: 'id' });
-
-    this.customers.subscribe(data => console.log(data));
   }
 }
